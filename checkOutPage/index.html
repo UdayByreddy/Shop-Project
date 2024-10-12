@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../images/shop-icon-32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <header class="header_class">
+            <div class="header_class1">
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+                <li class="shop_name"><a href="file:///home/udaykiran/shop-polymer/Home/index.html">SHOP</a></li>
+                <li class="cart_logo"><a href="file:///home/udaykiran/shop-polymer/cart_page/index.html#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </div>
+            <div class="header_class2">
+                <input type="checkbox" id="check">
+                <span class="menu">
+                    <li><a href="file:///home/udaykiran/shop-polymer/mensPage/index.html">Men's Outwear</a></li>
+                    <li><a href="#">Women's Outwear</a></li>
+                    <li><a href="#">Men's T-Shirt</a></li>
+                    <li><a href="#">Women's T-shirt</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+            </div>
+        </header>
+        <div class="body_container">
+            <p class="checkout_tag">Checkout</p>
+            <p class="shop_demo">Shop is a demo app-form data will not be sent</p>
+            <div class="information">
+                <div class="account_information">
+                    <p>Account Information</p>
+                    <div class="input-group">
+                        <input type="text" class="input" id="input1">
+                        <label class="placeholder" for="input1">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="input" id="input1">
+                        <label class="placeholder" for="input1">Phone Number</label>
+                    </div>
+                    <p>Shipping Address</p>
+                    <div class="input-group">
+                        <input type="text" class="input" id="input1">
+                        <label class="placeholder" for="input1">Address</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="input" id="input1">
+                        <label class="placeholder" for="input1">City</label>
+                    </div>
+                    <div class="state_zip">
+                        <div class="input-group State">
+                            <input type="text" class="input" id="input1">
+                            <label class="placeholder" for="input1">State</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="input" id="input1">
+                            <label class="placeholder" for="input1">Zip/PostalCode</label>
+                        </div>
+
+                    </div>
+                    <div class="dropdown">
+                        <p>country</p>
+                        <button class="dropbtn">India</button>
+                        <div class="dropdown-content">
+                            <a href="#">United States</a>
+                            <a href="#">London</a>
+                        </div>
+                    </div>
+                    <p>Billing Address</p>
+                    <div class="billing_address_content">
+                        <input type="checkbox" />
+                        <p>Use different billing address</p>
+                    </div>
+                </div>
+                <div class="billing_information">
+                    <p>Payment Method</p>
+                    <div class="input-group">
+                        <input type="text" class="input" id="input1">
+                        <label class="placeholder" for="input1">Cardholder Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="input" id="input1">
+                        <label class="placeholder" for="input1">Card Number</label>
+                    </div>
+                    <div class="dropdown">
+                        <p>Exipry</p>
+                        <div class="inner_dropdown">
+                            <button class="dropbtn">Jan</button>
+                        <div class="dropdown-content">
+                            <a href="#">Feb</a>
+                            <a href="#">March</a>
+                            <a href="#">April</a>
+                            <a href="#">May</a>
+                            <a href="#">June</a>
+                            <a href="#">July</a>
+                            <a href="#">Aug</a>
+                            <a href="#">Sep</a>
+                            <a href="#">Oct</a>
+                        </div>
+                        <button class="dropbtn">2016</button>
+                        <div class="dropdown-content1">
+                            <a href="#">2017</a>
+                            <a href="#">2018</a>
+                            <a href="#">2019</a>
+                            <a href="#">2020</a>
+                            <a href="#">2021</a>
+                            <a href="#">2022</a>
+                            <a href="#">2023</a>
+                            <a href="#">2024</a>
+                        </div>
+                        <button class="dropbtn">CVV</button>
+                        </div>
+                    </div>
+                    <p>Order summary</p>
+                    <div class="order_summary_content">
+                        <div class="content1">
+                            <span>Ladies Google New York T-Shirt</span>
+                            <span>
+                                $18.35</span>
+                        </div>
+                        <div class="content2">
+                            <span>Men's Tech Shell Full-Zip</span>
+                            <span> $50.20</span>
+                        
+                        </div>
+                        <div class="content3">
+                            <span>Total</span>
+                            <span>
+                                $68.55</span>
+                        
+                        </div>
+                    </div>
+                    <button onclick="window.location.href='file:///home/udaykiran/shop-polymer/thank_you_page/index.html'" class="place_order_button">PLACE ORDER</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Made by UdayKiran Byreddy</p>
+        <button class="footer-button">DEMO ONLY</button>
+      </footer>
+</body>
+</html>
