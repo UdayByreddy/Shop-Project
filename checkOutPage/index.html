@@ -38,22 +38,6 @@
             ></a>
           </li>
         </div>
-        <div class="header_class2">
-          <input type="checkbox" id="check" />
-          <span class="menu">
-            <li>
-              <a href="file:///home/udaykiran/shop-polymer/mensPage/index.html"
-                >Men's Outwear</a
-              >
-            </li>
-            <li><a href="#">Women's Outwear</a></li>
-            <li><a href="#">Men's T-Shirt</a></li>
-            <li><a href="#">Women's T-shirt</a></li>
-            <label for="check" class="close-menu"
-              ><i class="fas fa-times"></i
-            ></label>
-          </span>
-        </div>
       </header>
       <div class="body_container">
         <p class="checkout_tag">Checkout</p>
@@ -90,11 +74,11 @@
             </div>
             <div class="dropdown">
               <p>country</p>
-              <button class="dropbtn">India</button>
-              <div class="dropdown-content">
-                <a href="#">United States</a>
-                <a href="#">London</a>
-              </div>
+              <input list="country" class="input_list4" placeholder="INDIA" />
+              <datalist id="country">
+                <option value="America"></option>
+                <option value="London"></option>
+              </datalist>
             </div>
             <p>Billing Address</p>
             <div class="billing_address_content">
@@ -115,30 +99,37 @@
             <div class="dropdown">
               <p>Exipry</p>
               <div class="inner_dropdown">
-                <button class="dropbtn">Jan</button>
-                <div class="dropdown-content">
-                  <a href="#">Feb</a>
-                  <a href="#">March</a>
-                  <a href="#">April</a>
-                  <a href="#">May</a>
-                  <a href="#">June</a>
-                  <a href="#">July</a>
-                  <a href="#">Aug</a>
-                  <a href="#">Sep</a>
-                  <a href="#">Oct</a>
-                </div>
-                <button class="dropbtn">2016</button>
-                <div class="dropdown-content1">
-                  <a href="#">2017</a>
-                  <a href="#">2018</a>
-                  <a href="#">2019</a>
-                  <a href="#">2020</a>
-                  <a href="#">2021</a>
-                  <a href="#">2022</a>
-                  <a href="#">2023</a>
-                  <a href="#">2024</a>
-                </div>
-                <button class="dropbtn">CVV</button>
+                <input
+                  list="expiry-years"
+                  class="input_list1"
+                  placeholder="Year"
+                />
+                <datalist id="expiry-years">
+                  <option value="2024"></option>
+                  <option value="2025"></option>
+                  <option value="2026"></option>
+                  <option value="2027"></option>
+                </datalist>
+                <input
+                  list="expiry-months"
+                  class="input_list2"
+                  placeholder="Month"
+                />
+                <datalist id="expiry-months">
+                  <option value="01"></option>
+                  <option value="02"></option>
+                  <option value="03"></option>
+                  <option value="04"></option>
+                  <option value="05"></option>
+                  <option value="06"></option>
+                  <option value="07"></option>
+                  <option value="08"></option>
+                  <option value="09"></option>
+                  <option value="10"></option>
+                  <option value="11"></option>
+                  <option value="12"></option>
+                </datalist>
+                <input type="text" class="input_list3" placeholder="CVV" />
               </div>
             </div>
             <p>Order summary</p>
