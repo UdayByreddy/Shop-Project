@@ -183,17 +183,14 @@ body{
 }
 
 .outwear1,.outwear2,.outwear3,.outwear4,.outwear5,.outwear6,.outwear7,.outwear8,.outwear9,.outwear10,.outwear11,.outwear12{
-    width: 50%;
+    width: 287px;
+    height: 381px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 1.5rem;
     
-}
-.outwear1{
-    width: 287px;
-    height: 381px;
 }
 
 
@@ -349,7 +346,7 @@ body{
     /* Container2 Grid adjustments */
     .container2 {
         grid-template-columns: repeat(2,1fr);
-        row-gap: 1rem;
+        row-gap: 0.5rem;
     }
     .outwear1, .outwear2, .outwear3, .outwear4, .outwear5, .outwear6, .outwear7, .outwear8, .outwear9, .outwear10, .outwear11, .outwear12 {
         width: 80%;
